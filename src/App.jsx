@@ -4,10 +4,14 @@ import Logo from './components/Logo'
 
 const App = () => {
   return (
-    <Header>
-      <Logo />
-      <Nav />
-    </Header>
+    <>
+      <Header>
+        <Logo />
+        <Nav />
+      </Header>
+      <main></main>
+      <footer></footer>
+    </>
   )
 }
 
