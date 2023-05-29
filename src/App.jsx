@@ -1,6 +1,13 @@
+import Header from './components/Header'
+import Nav from './components/Nav'
+import Logo from './components/Logo'
+
 const App = () => {
   return (
-    <h1>Hello world with React + Tailwindcss</h1>
+    <Header>
+      <Logo />
+      <Nav />
+    </Header>
   )
 }
 
