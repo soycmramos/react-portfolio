@@ -8,7 +8,7 @@ const Nav = () => {
         <span className="block h-0.5 w-full bg-gray-700 rounded transition"></span>
       </label>
 
-      <div className="fixed top-14 inset-0 p-4 w-3/5 sm:w-1/2 bg-white shadow-sm md:shadow-none md:w-auto md:static md:p-0 transition">
+      <div className="fixed top-14 inset-0 p-4 w-3/5 sm:w-1/2 bg-white shadow-sm md:shadow-none md:w-auto md:static md:p-0 -translate-x-full md:translate-x-0 transition">
         <ul className="flex flex-col gap-2 md:flex-row">
           <li><a href="#" className="block w-full py-2 px-4 rounded hover:bg-gray-200 font-semibold">Item 1</a></li>
           <li><a href="#" className="block w-full py-2 px-4 rounded hover:bg-gray-200 font-semibold">Item 2</a></li>
