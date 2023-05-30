@@ -9,9 +9,7 @@ const Hero = () => {
             className="md:w-1/2 rounded-lg"
           />
           <div className="mt-8 md:w-1/2 md:mt-0 md:ml-10 h-auto">
-            <h2 className="text-white text-3xl font-bold mb-4">
-              Lorem ipsum dolor sit
-            </h2>
+            <h2 className="text-white text-3xl font-bold mb-4">Lorem ipsum dolor sit</h2>
             <p className="text-white mb-8">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos odit blanditiis. Placeat iste commodi eaque quibusdam similique saepe, voluptatibus delectus, autem provident iusto magni at? Aliquid distinctio quo quaerat.
             </p>
