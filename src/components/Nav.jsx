@@ -3,7 +3,7 @@ const Nav = () => {
     <nav>
       <input type="checkbox" id="hamburger" className="peer" hidden />
       <label htmlFor="hamburger" className="flex flex-col place-content-around hover:bg-slate-300 p-2 w-10 h-10 transition rounded cursor-pointer md:hidden">
-        <span className="block h-0.5 w-full bg-slate-700 rounded peer-checked:bg-yellow-500 transition"></span>
+        <span className="block h-0.5 w-full bg-slate-700 rounded transition"></span>
         <span className="block h-0.5 w-full bg-slate-700 rounded transition"></span>
         <span className="block h-0.5 w-full bg-slate-700 rounded transition"></span>
       </label>
