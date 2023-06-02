@@ -1,19 +1,16 @@
 import Header from './components/Header'
-import Nav from './components/Nav'
-import Logo from './components/Logo'
 import Hero from './components/Hero'
+import Layout from './components/Layout/Layout'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <>
-      <Header>
-        <Logo />
-        <Nav />
-      </Header>
-      <main>
+      <Header />
+      <Layout>
         <Hero />
-      </main>
-      <footer></footer>
+      </Layout>
+      <Footer />
     </>
   )
 }
