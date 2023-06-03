@@ -13,7 +13,7 @@ const Nav = () => {
 				<ul className="flex flex-col gap-2 md:flex-row md:items-center">
 					{/* <li><a href="#" className="block w-full py-2 px-4 rounded hover:bg-zinc-100 font-semibold transition">Item 1</a></li> */}
 					{/* <li><a href="#" className="btn btn-default-primary">Sign Up</a></li> */}
-					<li><a href="#" className="btn">Sign Up</a></li>
+					<li><a href="#" className="btn btn-outline-primary w-full text-left">Button</a></li>
 				</ul>
 			</div>
 		</nav>
