@@ -1,7 +1,7 @@
 const Logo = () => {
 	return (
 		<a href="/">
-			<h1 className="text-3xl font-semibold text-zinc-500">Lorem</h1>
+			<h1 className="text-3xl font-semibold text-zinc-600">Lorem</h1>
 		</a>
 		// <svg
 		//   xmlns="http://www.w3.org/2000/svg"
