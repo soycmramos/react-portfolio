@@ -11,7 +11,7 @@ const Nav = () => {
 
 			<div className="fixed top-14 inset-0 p-4 w-3/5 sm:w-1/2 bg-white shadow-sm md:shadow-none md:w-auto md:static md:p-0  transition">
 				<ul className="flex flex-col gap-2 md:flex-row md:items-center">
-					<li><a href="#" className="btn btn-outline-primary w-full text-left">Button</a></li>
+					<li><a href="#" className="btn btn-default md:btn-outline-primary w-full text-left">Button</a></li>
 				</ul>
 			</div>
 		</nav>
