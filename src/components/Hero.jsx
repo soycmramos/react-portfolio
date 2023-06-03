@@ -13,7 +13,7 @@ const Hero = () => {
 						<p className="text-zinc-700">
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos odit blanditiis. Placeat iste commodi eaque quibusdam similique saepe, voluptatibus delectus, autem provident iusto magni.
 						</p>
-						<button className="btn btn-primary">Button</button>
+						<a href="#" className="btn btn-outline-primary self-start">Button</a>
 					</div>
 				</div>
 			</div>
