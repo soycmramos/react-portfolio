@@ -13,7 +13,8 @@ const Hero = () => {
             <p className="text-zinc-700">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos odit blanditiis. Placeat iste commodi eaque quibusdam similique saepe, voluptatibus delectus, autem provident iusto magni.
             </p>
-            <a href="#" className="inline-block py-2 px-4 rounded font-semibold text-zinc-100 bg-zinc-700 hover:bg-zinc-600 focus:ring focus:ring-zinc-400 focus:bg-zinc-700 transition cursor-pointer self-start">Lorem</a>
+            {/* <a href="#" className="inline-block py-2 px-4 rounded font-semibold text-zinc-100 bg-zinc-700 hover:bg-zinc-600 transition cursor-pointer self-start">Lorem</a> */}
+            <a href="#" className="inline-block py-2 px-4 rounded font-semibold text-white bg-teal-500 hover:bg-teal-600 transition cursor-pointer self-start">Lorem</a>
           </div>
         </div>
       </div>
