@@ -4,15 +4,15 @@ import Layout from './components/Layout/Layout'
 import Footer from './components/Footer'
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Layout>
+	return (
+		<>
+			<Header />
+			<Layout>
         <Hero />
       </Layout>
-      <Footer />
-    </>
-  )
+			<Footer />
+		</>
+	)
 }
 
 export default App
