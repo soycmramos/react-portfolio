@@ -11,7 +11,13 @@ body {
 @layer components {
 
 	.root {
-		@apply min-h-screen flex flex-col
+		@apply flex flex-col;
+		min-height: calc(100vh - theme('height.headerHeight'));
+		margin-top: theme('height.headerHeight');
+	}
+
+	.main-header {
+		height: theme('height.headerHeight');
 	}
 
 	/* Buttons */
