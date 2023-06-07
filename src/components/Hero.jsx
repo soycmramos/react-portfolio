@@ -2,7 +2,7 @@ const Hero = () => {
 	return (
 		<section className="py-8">
 			<div className="container mx-auto px-4">
-				<div className="flex flex-col md:flex-row-reverse items-center gap-8">
+				<article className="flex flex-col md:flex-row-reverse items-center gap-8">
 					<img
 						src="http://via.placeholder.com/640x360"
 						alt="Hero img"
@@ -15,7 +15,7 @@ const Hero = () => {
 						</p>
 						<a href="#" className="btn btn-primary self-start">Button</a>
 					</div>
-				</div>
+				</article>
 			</div>
 		</section>
 	)
