@@ -16,7 +16,7 @@ const Home = () => {
 							<p className="text-zinc-600">
 								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos odit blanditiis. Placeat iste commodi eaque quibusdam similique saepe, voluptatibus delectus, autem provident iusto magni.
 							</p>
-							<Link href="#" className="btn btn-primary self-start">Button</Link>
+							<Link to="/signup" className="btn btn-primary self-start">Button</Link>
 						</div>
 					</article>
 				</div>
