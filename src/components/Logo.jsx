@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
+
 const Logo = () => {
 	return (
-		<a href="/">
-			<h1 className="text-3xl font-semibold text-zinc-600">Lorem</h1>
-		</a>
+		<Link to='/'>
+			<h1 className='text-3xl font-semibold text-zinc-600'>Lorem</h1>
+		</Link>
 	)
 }
 
