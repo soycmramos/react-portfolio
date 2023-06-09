@@ -10,28 +10,24 @@ const Signup = () => {
 							autoComplete="off"
 							placeholder="Name"
 							className="p-2 outline-none border w-full text-zinc-600 text-lg bg-transparent"
-						// value={'Ramos'}
 						/>
 						<input
 							type="text"
 							autoComplete="off"
 							placeholder="Last name"
 							className="p-2 outline-none border w-full text-zinc-600 text-lg bg-transparent"
-						// value={'Carlos'}
 						/>
 						<input
 							type="email"
 							autoComplete="off"
 							placeholder="Email"
 							className="p-2 outline-none border w-full text-zinc-600 text-lg bg-transparent"
-						// value={'carlosmarioramos34@gmail.com'}
 						/>
 						<input
 							type="password"
 							autoComplete="off"
 							placeholder="Password"
 							className="p-2 outline-none border w-full text-zinc-600 text-lg bg-transparent"
-						// value={'@Cr43188'}
 						/>
 						{/* <Link className="self-end underline text-zinc-600" to='#'>Forgot your password?</Link> */}
 						<button className="btn btn-primary">
