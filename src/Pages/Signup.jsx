@@ -29,11 +29,9 @@ const Signup = () => {
 							placeholder="Password"
 							className="p-2 outline-none border w-full text-zinc-600 text-lg bg-transparent"
 						/>
-						{/* <Link className="self-end underline text-zinc-600" to='#'>Forgot your password?</Link> */}
 						<button className="btn btn-primary">
 							Submit
 						</button>
-						{/* </div> */}
 					</div>
 				</form>
 			</div>
