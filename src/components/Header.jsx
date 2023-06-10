@@ -3,7 +3,7 @@ import Logo from './Logo'
 
 const Header = () => {
   return (
-    <header className="main-header fixed inset-0 w-full bg-white shadow-sm">
+    <header className="main-header fixed inset-0 w-full bg-white shadow-black">
       <div className="container mx-auto px-4 h-full">
         <div className="flex justify-between items-center h-full">
           <Logo />
