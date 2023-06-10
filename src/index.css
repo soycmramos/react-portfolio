@@ -30,11 +30,11 @@ body {
 	}
 
 	.btn-primary {
-		@apply text-white bg-violet-600 hover:bg-violet-600/90 border-violet-600 hover:border-violet-600/90
+		@apply text-white bg-green-600 hover:bg-green-600/90 border-green-600 hover:border-green-600/90
 	}
 
 	.btn-outline-primary {
-		@apply text-violet-600 hover:text-white bg-transparent hover:bg-violet-600/90 border-violet-600 hover:border-violet-600/90;
+		@apply text-green-600 hover:text-white bg-transparent hover:bg-green-600/90 border-green-600 hover:border-green-600/90;
 	}
 
 	.btn-default {
