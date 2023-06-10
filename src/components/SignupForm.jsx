@@ -1,11 +1,9 @@
 import { useState } from 'react'
-import Loader from './../components/Loader';
 
 const SignupFrom = () => {
 
 	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
-	const [loading, setLoading] = useState(false)
 
 	const handleInputEmail = e => setEmail(e.target.value)
 	const handleInputPassword = e => setPassword(e.target.value)
@@ -45,7 +43,7 @@ const SignupFrom = () => {
 						name='email'
 						autoComplete='off'
 						placeholder='Enter email addres'
-						className='p-2 outline-none border w-full text-zinc-600 bg-transparent'
+						className='p-2 outline-none border w-full text-zinc-600 bg-gray-100'
 						onChange={handleInputEmail}
 					/>
 				</fieldset>
@@ -56,7 +54,7 @@ const SignupFrom = () => {
 						name='password'
 						autoComplete='off'
 						placeholder='Enter your password'
-						className='p-2 outline-none border w-full text-zinc-600 bg-transparent'
+						className='p-2 outline-none border w-full text-zinc-600 bg-gray-100'
 						onChange={handleInputPassword}
 					/>
 				</fieldset>
