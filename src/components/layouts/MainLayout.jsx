@@ -6,7 +6,7 @@ const MainLayout = ({ children }) => {
 	return (
 		<>
 			<Header />
-			<main>
+			<main className='flex flex-col flex-grow'>
 				{children}
 			</main>
 			<Footer />

@@ -13,10 +13,6 @@ body {
 	@apply bg-zinc-100;
 }
 
-main {
-	@apply flex flex-col flex-grow;
-}
-
 @layer components {
 
 	.root {
