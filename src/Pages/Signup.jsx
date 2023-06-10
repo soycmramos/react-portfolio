@@ -1,6 +1,6 @@
 const Signup = () => {
 	return (
-		<section className="py-8">
+		<section className="flex flex-col flex-grow justify-center py-8">
 			<div className="container mx-auto px-4">
 				<form className="md:w-1/2 xl:w-1/3 mx-auto shadow-lg px-6 py-10 bg-white rounded-lg">
 					<h2 className="text-4xl text-center font-medium mb-6 text-zinc-600">Sign up</h2>
