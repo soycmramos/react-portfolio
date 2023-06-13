@@ -1,22 +1,19 @@
 import { Routes, Route } from 'react-router-dom'
 
-import MainLayout from './components/Layouts/MainLayout'
+import Layout from './components/layouts/Layout'
 
-import Home from './Pages/Home'
-import Signup from './Pages/Signup'
+import Landing from './Pages/Home'
 import Test from './Pages/Test'
 
 const AppRouter = () => {
 	return (
 
-		<MainLayout>
+		<Layout>
 			<Routes>
-				<Route path='/' element={<Home />} />
-				<Route path='/signup' element={<Signup />} />
-				<Route path='/signup' element={<Signup />} />
+				<Route path='/' element={<Landing />} />
 				<Route path='/test' element={<Test />} />
 			</Routes>
-		</MainLayout>
+		</Layout>
 
 	)
 }
