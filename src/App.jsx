@@ -1,8 +1,8 @@
-import AppRouter from './Router'
+import Router from './services/Router'
 
 const App = () => {
 	return (
-		<AppRouter />
+		<Router />
 	)
 }
 
