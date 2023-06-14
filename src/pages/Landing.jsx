@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom'
 
 const Landing = () => {
 	return (
-		<section className="flex flex-col flex-grow py-8 md:justify-center">
+		<section className="flex flex-col flex-grow py-8 md:justify-center bg-white">
 			<div className="container mx-auto px-4">
-				<div className="flex flex-col md:flex-row items-center gap-8">
-					<article className="md:w-1/2 flex flex-col gap-4 md:gap-6 text-center md:text-start">
+				<div className="flex flex-col md:flex-row items-center gap-8 md:gap-4">
+					<article className="md:w-1/2 flex flex-col items-center md:items-start gap-4 md:gap-6 text-center md:text-start">
 						<div>
 							<h1 className="text-zinc-600 font-bold text-6xl lg:text-8xl">
 								Hello!
