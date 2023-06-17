@@ -1,15 +1,11 @@
-const Button = ({ children, className, onClick, ...res }) => {
-
-	console.log({ children })
-	console.log({ res })
-
+const Button = ({ type = 'button', text, onclick, className, ...res }) => {
 	return (
 		<button
-			className={`btn ${className}`}
-			onClick={onClick}
-			{...res}
+			type={type}
+			onClick={onclick}
+			className={`button${className ? ' ' + className : ''}`} {...res}
 		>
-			{children}
+			{text}
 		</button>
 	)
 }
