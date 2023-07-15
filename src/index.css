@@ -12,7 +12,8 @@ body {
 @layer components {
 
 	#root {
-		@apply h-screen grid grid-cols-[1fr] grid-rows-[3.5rem,1fr,3.5rem]
+		@apply flex flex-col mt-14;
+		min-height: calc(100vh - 3.5rem);
 	}
 }
 
