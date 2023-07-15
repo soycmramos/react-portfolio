@@ -1,28 +1,42 @@
 import Container from './../components/Container'
 import { Link } from 'react-router-dom'
+import { BsGithub, BsLinkedin, BsInstagram, BsDownload } from 'react-icons/bs'
+import Button from './../components/Button'
 
 const Landing = () => {
 	return (
-		<section className="flex flex-col flex-grow py-8 md:justify-center bg-white">
+		<section className='flex flex-col py-8 md:py-0 h-screen bg-white'>
 			<Container>
-				<div className="flex flex-col md:flex-row items-center gap-8 md:gap-4">
-					<article className="md:w-1/2 flex flex-col items-center md:items-start gap-4 md:gap-6 text-center md:text-start">
+				<div className='flex flex-col md:flex-row md:items-center md:h-full gap-8'>
+					<article className='flex flex-col md:w-1/2 gap-6'>
 						<div>
-							<h1 className="text-zinc-600 font-bold text-6xl lg:text-8xl">
+							<h1 className='text-zinc-600 font-bold text-6xl lg:text-7xl xl:text-8xl mb-2'>
 								Hello!
-								<span className="block text-zinc-600 text-4xl font-normal lg:text-6xl">I'm Carlos Ramos</span>
+								<span className='block text-zinc-600 text-4xl lg:text-5xl xl:text-6xl font-normal'>I'm Carlos Ramos</span>
 							</h1>
-							<span className="text-zinc-500 text-lg md:text-xl">SOA & Javascript Developer</span>
+							<p className={`text-zinc-500 text-lg md:text-xl font-['Victor_Mono']`}>SOA & JavaScript Developer</p>
 						</div>
-						<div className='flex gap-4'>
-							<Link to="/contact" className="button button-success self-center md:self-start">Contact</Link>
-							<Link to="/resume" className="button button-outline-success self-center md:self-start">Resume</Link>
+						<div className='flex justify-between w-full gap-8'>
+							<ul className='flex gap-4 items-center'>
+								<Link to='/' className='hover:scale-110 transition'>
+									<BsLinkedin className='w-7 h-7 text-zinc-700' />
+								</Link>
+								<Link to='/' className='hover:scale-110 transition'>
+									<BsGithub className='w-7 h-7 text-zinc-700' />
+								</Link>
+								<Link to='/' className='hover:scale-110 transition'>
+									<BsInstagram className='w-7 h-7 text-zinc-700' />
+								</Link>
+							</ul>
+							<Button to='/cv' text='Download CV' className='button-info flex items-center gap-2 font-semibold'>
+								<BsDownload className='w-5 h-5' />
+							</Button>
 						</div>
 					</article>
 					<img
-						src="http://via.placeholder.com/640x360"
-						alt="Hero img"
-						className="md:w-1/2 rounded-lg "
+						// src='http://via.placeholder.com/640x360'
+						src='/src/assets/undraw_programming_re_kg9v.svg'
+						className='w-2/3 sm:w-1/2 mx-auto'
 					/>
 				</div>
 			</Container>

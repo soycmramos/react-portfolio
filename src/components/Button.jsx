@@ -1,4 +1,4 @@
-const Button = ({ type = 'button', text, onclick, className, ...res }) => {
+const Button = ({ children, type = 'button', text, onclick, className, ...res }) => {
 	return (
 		<button
 			type={type}
@@ -6,6 +6,7 @@ const Button = ({ type = 'button', text, onclick, className, ...res }) => {
 			className={`button${className ? ' ' + className : ''}`} {...res}
 		>
 			{text}
+			{children}
 		</button>
 	)
 }
