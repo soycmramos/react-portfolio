@@ -1,6 +1,7 @@
 import Container from './../components/Container'
 import { Link } from 'react-router-dom'
-import { BsGithub, BsLinkedin, BsInstagram, BsDownload } from 'react-icons/bs'
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
+import { BsDownload } from 'react-icons/bs'
 import Button from './../components/Button'
 
 const Landing = () => {
@@ -20,17 +21,17 @@ const Landing = () => {
 							<div className='flex justify-between w-full gap-8'>
 								<ul className='flex gap-4 items-center'>
 									<Link to='/' className='hover:scale-110 transition'>
-										<BsLinkedin className='w-7 h-7 text-zinc-700' />
+										<FaLinkedin className='w-7 h-7 text-zinc-700' />
 									</Link>
 									<Link to='/' className='hover:scale-110 transition'>
-										<BsGithub className='w-7 h-7 text-zinc-700' />
+										<FaGithub className='w-7 h-7 text-zinc-700' />
 									</Link>
 									<Link to='/' className='hover:scale-110 transition'>
-										<BsInstagram className='w-7 h-7 text-zinc-700' />
+										<FaInstagram className='w-7 h-7 text-zinc-700' />
 									</Link>
 								</ul>
 								<Button to='/cv' text='Download CV' className='button-info flex items-center gap-2 font-semibold'>
-									<BsDownload className='w-5 h-5' />
+									<BsDownload className='w-5 h-5 font-bold' />
 								</Button>
 							</div>
 						</div>
