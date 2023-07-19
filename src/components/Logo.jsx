@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
-import { BsBookmarkFill } from 'react-icons/bs'
+import { HiCode } from "react-icons/hi";
 
 const Logo = () => {
 	return (
 		<Link to='/'>
 			{/* <h1 className='text-3xl font-semibold text-zinc-600'>Lorem</h1> */}
-			<BsBookmarkFill className='w-8 h-8' />
+			<HiCode className='w-8 h-8' />
 		</Link>
 	)
 }
