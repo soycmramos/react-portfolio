@@ -37,8 +37,9 @@ const Landing = () => {
 						</div>
 						<img
 							// src='http://via.placeholder.com/640x360'
-							src='/src/assets/undraw_programming_re_kg9v.svg'
-							className='w-2/3 sm:w-1/2 mx-auto'
+							// src='/src/assets/undraw_programming_re_kg9v.svg'
+							src='/src/assets/img-hero.png'
+							className='w-2/3 sm:w-1/3 mx-auto'
 						/>
 					</div>
 				</Container>
