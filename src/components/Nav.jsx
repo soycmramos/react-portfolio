@@ -23,7 +23,7 @@ const Nav = () => {
 		<nav className='flex items-center sm:flex-row-reverse sm:gap-4'>
 			<ThemeButton />
 			<NavButton />
-			<div className='fixed top-14 inset-0 bg-zinc-50 sm:bg-transparent sm:static'>
+			<div className='fixed top-14 inset-0 bg-zinc-50 sm:bg-transparent sm:static hidden sm:block'>
 				<ul className='flex flex-col items-center gap-4 py-6 sm:flex-row sm:py-0'>
 					<li className='py-4 sm:py-0'>
 						<Link to='/' className='block font-semibold text-lg sm:text-base text-zinc-700 hover:text-blue-500 transition'>Inicio</Link>

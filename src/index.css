@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800;900;1000&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@300;400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,11 +10,15 @@ body {
 	@apply bg-zinc-100;
 }
 
-@layer components {
+main {
+	flex-grow: 1;
+}
 
+@layer components {
 	#root {
-		@apply flex flex-col mt-14;
-		min-height: calc(100vh - 3.5rem);
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
 	}
 }
 

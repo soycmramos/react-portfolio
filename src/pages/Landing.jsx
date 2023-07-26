@@ -6,45 +6,43 @@ import Button from './../components/Button'
 
 const Landing = () => {
 	return (
-		<>
-			<section className='flex py-8 md:py-0 h-screen items-center bg-white'>
-				<Container>
-					<div className='flex flex-col md:flex-row md:items-center gap-8'>
-						<div className='flex flex-col md:w-1/2 gap-6'>
-							<article>
-								<h1 className='text-zinc-600 font-bold text-6xl lg:text-7xl xl:text-8xl mb-2'>
-									Hello!
-									<span className='block text-zinc-600 text-4xl lg:text-5xl xl:text-6xl font-normal'>I'm Carlos Ramos</span>
-								</h1>
-								<p className={`text-zinc-500 text-lg md:text-xl font-['Victor_Mono']`}>SOA & JavaScript Developer</p>
-							</article>
-							<div className='flex justify-between w-full gap-8'>
-								<ul className='flex gap-4 items-center'>
-									<Link to='/' className='hover:scale-110 transition'>
-										<FaLinkedin className='w-7 h-7 text-zinc-700' />
-									</Link>
-									<Link to='/' className='hover:scale-110 transition'>
-										<FaGithub className='w-7 h-7 text-zinc-700' />
-									</Link>
-									<Link to='/' className='hover:scale-110 transition'>
-										<FaInstagram className='w-7 h-7 text-zinc-700' />
-									</Link>
-								</ul>
-								<Button to='/cv' text='Download CV' className='button-info flex items-center gap-2 font-semibold'>
-									<BsDownload className='w-5 h-5 font-bold' />
-								</Button>
-							</div>
+		<section className='h-screen grid place-items-center bg-white'>
+			<Container>
+				<div className='flex flex-col md:flex-row md:items-center gap-8'>
+					<div className='flex flex-col md:w-1/2 gap-6'>
+						<div>
+							<h1 className='text-zinc-600 font-bold text-6xl lg:text-7xl mb-2'>
+								Hello!
+								<p className='text-zinc-600 text-4xl lg:text-5xl font-normal'>I'm Carlos Ramos</p>
+							</h1>
+							<p className={`text-zinc-500 text-lg md:text-xl font-['Victor_Mono']`}>SOA & JavaScript developer</p>
 						</div>
-						<img
-							// src='http://via.placeholder.com/640x360'
-							// src='/src/assets/undraw_programming_re_kg9v.svg'
-							src='/src/assets/img-hero.png'
-							className='w-2/3 sm:w-1/3 mx-auto'
-						/>
+						<div className='flex justify-between w-full gap-8'>
+							<ul className='flex gap-4 items-center'>
+								<Link to='/' className='hover:scale-110 transition'>
+									<FaLinkedin className='w-7 h-7 text-zinc-700' />
+								</Link>
+								<Link to='/' className='hover:scale-110 transition'>
+									<FaGithub className='w-7 h-7 text-zinc-700' />
+								</Link>
+								<Link to='/' className='hover:scale-110 transition'>
+									<FaInstagram className='w-7 h-7 text-zinc-700' />
+								</Link>
+							</ul>
+							<Button to='/cv' text='Download CV' className='button-info flex items-center gap-1 font-semibold'>
+								<BsDownload className='w-5 h-5 font-semibold' />
+							</Button>
+						</div>
 					</div>
-				</Container>
-			</section>
-		</>
+					<figure className='w-full mx-auto sm:w-3/4 md:w-1/2'>
+						<img
+							src='/src/assets/undraw_developer_activity_re_39tg.svg'
+							className='mx-auto md:mr-0'
+						/>
+					</figure>
+				</div>
+			</Container>
+		</section>
 	)
 }
 
